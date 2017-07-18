@@ -82,7 +82,7 @@ function createRecord(host, table, record) {
         url: host + '/api/now/table/' + table,
         auth: {
             username: 'admin',
-            password: 'Password1083'
+            password: 'Password1234'
         },
         json: record
     };
@@ -102,5 +102,4 @@ function createRecord(host, table, record) {
             }
         }
     });
-
 }

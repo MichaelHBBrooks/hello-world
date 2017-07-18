@@ -17,9 +17,10 @@ request(options, function(err, httpResponse, body) {
     }
     var result = JSON.parse(body);
     console.log('----------------------------------------------------------');
-    console.log(httpResponse);
+    // console.log(httpResponse);
     console.log('----------------------------------------------------------');
-    console.log(body);
+    // console.log(body);
     console.log('----------------------------------------------------------');
+    console.log(result.result[0].sys_id);
     console.log(result.result[0].simple_name);
 });
