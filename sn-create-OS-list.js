@@ -14,19 +14,24 @@ function populateBrowserTables(host, authentication) {
 
     var capabilities_list = [];
     capabilities_list.push({
-        browser: 'chrome'
+        browser: 'chrome',
+        active: 'true'
     });
     capabilities_list.push({
-        browser: 'firefox'
+        browser: 'firefox',
+        active: 'true'
     });
     capabilities_list.push({
-        browser: 'iexplore'
+        browser: 'iexplore',
+        active: 'true'
     });
     capabilities_list.push({
-        browser: 'opera'
+        browser: 'opera',
+        active: 'true'
     });
     capabilities_list.push({
-        browser: 'safari'
+        browser: 'safari',
+        active: 'true'
     });
 
     populateTable(host, authentication, table, capabilities_list);
