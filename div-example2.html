@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is an example for CSS and div containers</title>
+    <style>
+    body{
+    	background-color: #EEEEEE;
+    }
+    #container1{
+    	background-color: #DDDDFF;
+    }
+    #inner_container1{
+    	background-color: #DDFFDD;
+    }
+
+    #container2{
+        background-color: #DDDDFF;
+    }
+    #inner_container2{
+        background-color: #DDFFDD;
+        height: 100px;
+        overflow: hidden; /*Change this to "visible", "scroll", "hidden" to see different behaviors */
+    }
+    </style>
+</head>
+
+<body>
+    <div id='container1'>
+        <div>This is container1.</div>
+        <div id='inner_container1'>
+            <div>Entry 1</div>
+            <div>Entry 2</div>
+            <div>Entry 3</div>
+            <div>Entry 4</div>
+            <div>Entry 5</div>
+            <div>Entry 6</div>
+            <div>Entry 7</div>
+            <div>Entry 8</div>
+            <div>Entry 9</div>
+            <div>Entry 10</div>
+        </div>
+        <div>This is the bottom of container1.</div>
+    </div>
+    <br/>
+    <div id='container2'>
+        <div>This is container2.</div>
+        <div id='inner_container2'>
+            <div>Entry 1</div>
+            <div>Entry 2</div>
+            <div>Entry 3</div>
+            <div>Entry 4</div>
+            <div>Entry 5</div>
+            <div>Entry 6</div>
+            <div>Entry 7</div>
+            <div>Entry 8</div>
+            <div>Entry 9</div>
+            <div>Entry 10</div>
+        </div>
+        <div>This is the bottom of container2.</div>
+    </div>
+</body>
+
+</html>
