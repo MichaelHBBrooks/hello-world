@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "chai": "^4.0.2",
+    "node-schedule": "^1.2.5",
     "request": "^2.81.0",
     "webdriverio": "^4.8.0",
     "winston": "^2.3.1"
